@@ -1,0 +1,20 @@
+.ant-tabs-nav {
+    width: 100% !important;
+}
+
+.ant-tabs-tab {
+    display: block;
+    /* centers text inside tabs */
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+}
+
+.ant-tabs-nav>div:nth-of-type(1) {
+    display: unset !important;
+    width: 100% !important;
+}
+
+.hover:hover {
+    outline: 2px solid #8A2EE8;
+}
